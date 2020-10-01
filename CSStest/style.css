@@ -1,0 +1,70 @@
+*{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  /* border: 1px solid red; */
+}
+header img {
+  width: 70px;
+  margin-right: 20px;
+  /* border: 1px solid red; */
+}
+.card-flex {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  width: 270px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 6px #ccc;
+  margin:20px 10px;
+  transition: box-shadow 0.3s linear;
+}
+.card:hover {
+  box-shadow: 4px 4px 14px #ccc;
+}
+.card .top {
+  background-color: #2f5be7;
+  min-height: 100px;
+  border-radius: 10px 10px 0 0;
+}
+.card .img-container {
+  text-align: center;
+}
+.card img {
+  max-width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  border:5px solid #ffffff81;
+}
+.card .main-details {
+  padding-bottom: 15px;
+}
+.main-details .name {
+  font-weight: 700;
+}
+.main-details .track {
+  margin-bottom: 20px;
+}
+.main-details .desc {
+  color: #999;
+  font-size: 0.85rem
+}
+.card footer {
+  padding: 5px;
+}
+.card footer a {
+  padding: 3px;
+  color: #2f5be7;
+}
